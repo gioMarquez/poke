@@ -1,0 +1,24 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+
+}
+
+
+.lista-pokemon {
+  display: flex; /* Make the 'lista-pokemon' div a Flexbox container */
+  flex-wrap: wrap; /* Wrap list items to multiple lines if necessary */
+  justify-content: space-between; /* Distribute items horizontally with space between them */
+}
+
+.pokemon-item {
+  border: 1px solid #ccc; /* Add a simple border for each block */
+  padding: 10px; /* Add some padding for visual separation */
+  margin-bottom: 10px; /* Add margin between blocks */
+}
